@@ -1,0 +1,36 @@
+body {
+	font-family: sans-serif;
+	background-color: lightgray;
+}
+
+.container {
+	max-width: 600px;
+    min-height: 200px;
+	margin: auto;
+	padding: 10px 30px 50px;
+	background-color: #fff;
+    border-radius: 25px;
+
+}
+
+h1 {
+	text-align: center;
+	color: black;
+}
+
+#taskInput {
+	width: 80%;
+	padding: 10px;
+	margin-right: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+#addButton {
+	padding: 10px 20px;
+	border: none;
+	background-color: #0055b3;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
