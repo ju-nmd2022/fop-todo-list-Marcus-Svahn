@@ -34,3 +34,22 @@ h1 {
 	border-radius: 5px;
 	cursor: pointer;
 }
+
+#taskList {
+	list-style: none;
+	padding: 0;
+	margin-top: 20px;
+}
+
+.taskItem {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.taskItem.done {
+	text-decoration: line-through;
+	color: #ccc;
+}
